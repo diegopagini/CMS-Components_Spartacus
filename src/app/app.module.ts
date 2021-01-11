@@ -7,6 +7,7 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
 import { CustomBannerModule } from './custom-banner/custom-banner.module';
 import { CustomCartModule } from './custom-cart/custom-cart.module';
 import { CustomLinkModule } from './custom-link/custom-link.module';
+import { CustomCarouselModule } from './custom-carousel/custom-carousel.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { CustomLinkModule } from './custom-link/custom-link.module';
     CustomBannerModule,
     CustomCartModule,
     CustomLinkModule,
+    CustomCarouselModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {

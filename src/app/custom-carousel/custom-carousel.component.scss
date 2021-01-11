@@ -1,0 +1,21 @@
+.swiper-container {
+  width: 100vw;
+  height: auto;
+  max-height: 500px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-weight: 900;
+}
