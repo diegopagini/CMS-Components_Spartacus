@@ -6,6 +6,7 @@ import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
 import { CustomBannerModule } from './custom-banner/custom-banner.module';
 import { CustomCartModule } from './custom-cart/custom-cart.module';
+import { CustomLinkModule } from './custom-link/custom-link.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,6 +14,7 @@ import { CustomCartModule } from './custom-cart/custom-cart.module';
     BrowserModule,
     CustomBannerModule,
     CustomCartModule,
+    CustomLinkModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
