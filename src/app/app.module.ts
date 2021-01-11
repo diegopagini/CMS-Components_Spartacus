@@ -9,6 +9,7 @@ import { CustomCartModule } from './custom-cart/custom-cart.module';
 import { CustomLinkModule } from './custom-link/custom-link.module';
 import { CustomCarouselModule } from './custom-carousel/custom-carousel.module';
 import { CustomPaymentModule } from './custom-payment/payment.module';
+import { CustomLogoModule } from './custom-logo/custom-logo.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +20,7 @@ import { CustomPaymentModule } from './custom-payment/payment.module';
     CustomLinkModule,
     CustomCarouselModule,
     CustomPaymentModule,
+    CustomLogoModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
