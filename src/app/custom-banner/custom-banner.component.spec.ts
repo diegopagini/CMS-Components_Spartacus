@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CmsComponentComponent } from './cms-component.component';
+import { CustomBannerComponent } from './custom-banner.component';
 
-describe('CmsComponentComponent', () => {
-  let component: CmsComponentComponent;
-  let fixture: ComponentFixture<CmsComponentComponent>;
+describe('CustomBannerComponent', () => {
+  let component: CustomBannerComponent;
+  let fixture: ComponentFixture<CustomBannerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CmsComponentComponent ]
+      declarations: [ CustomBannerComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CmsComponentComponent);
+    fixture = TestBed.createComponent(CustomBannerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

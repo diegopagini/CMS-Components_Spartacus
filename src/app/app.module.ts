@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { translations, translationChunksConfig } from '@spartacus/assets';
-import { B2cStorefrontModule, IconModule } from '@spartacus/storefront';
-import { CmsModule } from '@spartacus/core';
+import { B2cStorefrontModule } from '@spartacus/storefront';
+import { CustomBannerModule } from './custom-banner/custom-banner.module';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    CustomBannerModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
@@ -31,7 +32,6 @@ import { CmsModule } from '@spartacus/core';
         level: '2.1',
       },
     }),
-    CmsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
