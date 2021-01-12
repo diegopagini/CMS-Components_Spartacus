@@ -10,6 +10,8 @@ import { CustomLinkModule } from './custom-link/custom-link.module';
 import { CustomCarouselModule } from './custom-carousel/custom-carousel.module';
 import { CustomPaymentModule } from './custom-payment/payment.module';
 import { CustomLogoModule } from './custom-logo/custom-logo.module';
+import { CustomNotFoundModule } from './custom-not-found/custom-not-found.module';
+import { CustomTopHeaderModule } from './custom-top-header/custom-top-header.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +23,8 @@ import { CustomLogoModule } from './custom-logo/custom-logo.module';
     CustomCarouselModule,
     CustomPaymentModule,
     CustomLogoModule,
+    CustomNotFoundModule,
+    CustomTopHeaderModule,
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
